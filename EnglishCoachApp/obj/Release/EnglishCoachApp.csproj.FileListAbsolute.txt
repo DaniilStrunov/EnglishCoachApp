@@ -1,0 +1,14 @@
+D:\Projects\EnglishCoachApp\EnglishCoachApp\bin\Release\EnglishCoachApp.exe.config
+D:\Projects\EnglishCoachApp\EnglishCoachApp\bin\Release\EnglishCoachApp.exe
+D:\Projects\EnglishCoachApp\EnglishCoachApp\bin\Release\EnglishCoachApp.pdb
+D:\Projects\EnglishCoachApp\EnglishCoachApp\bin\Release\EnglishCoach.dll
+D:\Projects\EnglishCoachApp\EnglishCoachApp\bin\Release\Newtonsoft.Json.dll
+D:\Projects\EnglishCoachApp\EnglishCoachApp\bin\Release\EnglishCoach.pdb
+D:\Projects\EnglishCoachApp\EnglishCoachApp\bin\Release\Newtonsoft.Json.xml
+D:\Projects\EnglishCoachApp\EnglishCoachApp\obj\Release\EnglishCoachApp.csprojResolveAssemblyReference.cache
+D:\Projects\EnglishCoachApp\EnglishCoachApp\obj\Release\EnglishCoachApp.Form1.resources
+D:\Projects\EnglishCoachApp\EnglishCoachApp\obj\Release\EnglishCoachApp.Properties.Resources.resources
+D:\Projects\EnglishCoachApp\EnglishCoachApp\obj\Release\EnglishCoachApp.csproj.GenerateResource.Cache
+D:\Projects\EnglishCoachApp\EnglishCoachApp\obj\Release\EnglishCoachApp.csproj.CoreCompileInputs.cache
+D:\Projects\EnglishCoachApp\EnglishCoachApp\obj\Release\EnglishCoachApp.exe
+D:\Projects\EnglishCoachApp\EnglishCoachApp\obj\Release\EnglishCoachApp.pdb
