@@ -47,6 +47,8 @@
             this.columnHeader1 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.columnHeader2 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.columnHeader3 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.PathText = new System.Windows.Forms.TextBox();
+            this.AddPath = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // LogIn
@@ -185,11 +187,31 @@
             this.listView2.UseCompatibleStateImageBehavior = false;
             this.listView2.SelectedIndexChanged += new System.EventHandler(this.listView2_SelectedIndexChanged);
             // 
+            // PathText
+            // 
+            this.PathText.Location = new System.Drawing.Point(753, 123);
+            this.PathText.Name = "PathText";
+            this.PathText.Size = new System.Drawing.Size(196, 22);
+            this.PathText.TabIndex = 13;
+            this.PathText.TextChanged += new System.EventHandler(this.PathText_TextChanged);
+            // 
+            // AddPath
+            // 
+            this.AddPath.Location = new System.Drawing.Point(753, 31);
+            this.AddPath.Name = "AddPath";
+            this.AddPath.Size = new System.Drawing.Size(196, 40);
+            this.AddPath.TabIndex = 14;
+            this.AddPath.Text = "Add The Path Ti The File";
+            this.AddPath.UseVisualStyleBackColor = true;
+            this.AddPath.Click += new System.EventHandler(this.AddPath_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(762, 775);
+            this.ClientSize = new System.Drawing.Size(988, 775);
+            this.Controls.Add(this.AddPath);
+            this.Controls.Add(this.PathText);
             this.Controls.Add(this.listView2);
             this.Controls.Add(this.listView1);
             this.Controls.Add(this.ShowLearnedWords);
@@ -205,6 +227,7 @@
             this.Controls.Add(this.LogIn);
             this.Name = "Form1";
             this.Text = "Form1";
+            this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -231,6 +254,8 @@
         private System.Windows.Forms.ColumnHeader columnHeader1;
         private System.Windows.Forms.ColumnHeader columnHeader2;
         private System.Windows.Forms.ColumnHeader columnHeader3;
+        private System.Windows.Forms.TextBox PathText;
+        private System.Windows.Forms.Button AddPath;
     }
 }
 

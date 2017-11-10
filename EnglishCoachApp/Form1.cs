@@ -9,7 +9,7 @@ namespace EnglishCoachApp
 {
     public partial class Form1 : Form
     {
-        string Path = @"";
+        string Path;
         User user;
         TheWord CurrentWord;
         bool CurrenAnswer;
@@ -20,7 +20,14 @@ namespace EnglishCoachApp
 
         private void LogIn_Click(object sender, EventArgs e)
         {
-            user = EnglishCouch.LogInUser(UserData.Text, Path);
+            try
+            {
+                user = EnglishCouch.LogInUser(UserData.Text, Path);
+            }
+            catch
+            {
+                MessageBox.Show("Пользователя с таким именем нет");
+            }
             UserData.Text.DefaultIfEmpty();
         }
 
@@ -109,6 +116,21 @@ namespace EnglishCoachApp
         }
 
         private void listView2_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void AddPath_Click(object sender, EventArgs e)
+        {
+            Path = PathText.Text+@"\";
+        }
+
+        private void PathText_TextChanged(object sender, EventArgs e)
         {
 
         }
